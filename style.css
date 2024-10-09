@@ -1,0 +1,211 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.upper{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.upper .img img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  
+}
+
+.cv{
+    width: 70%;
+    background-color:rgb(180, 176, 222);
+    margin: 0 auto;
+    
+}
+
+nav{
+    position: sticky;
+    top:0;
+    margin-top: 20px;
+}
+
+nav ul li{
+    list-style-type: none;
+    
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(41, 27, 113);
+    padding: 15px;
+}
+
+nav li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
+
+.about{
+    box-sizing: border-box;
+    padding-left: 30px;
+
+}
+
+.about p{
+    
+    text-align: justify;
+
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.skill{
+    box-sizing: border-box; 
+    padding-left: 30px;
+}
+
+.skill h1{
+  
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+.skill ul{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+}
+
+.skill ul li{
+  list-style-type: none;
+  font-weight: 500px;
+  font-size: 20px;
+  padding: 15px;
+  background-color: rgb(129, 107, 107);
+  border-left: 10px solid black;
+}
+
+.experience{
+    box-sizing: border-box; 
+    padding-left: 30px;
+}
+
+.experience h1{
+    
+    
+    margin-bottom: 10px;
+    margin-top: 40px;
+}
+.experience ul{
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+}
+
+.experience ul li{
+  list-style-type: none;
+  font-weight: 500px;
+  font-size: 17px;
+  padding: 15px;
+  background-color: rgb(140, 121, 121);
+  border-left: 10px solid rgb(57, 46, 46);
+}
+
+.experience ul li span{
+    font-size: 20px;font-weight: bold;
+}
+
+
+table{
+    width: 100%;
+    margin: 0 auto;
+}
+
+table tr th{
+    background-color:rgb(56, 42, 42) ;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.education {
+    padding-left: 30px;
+    margin-top: 40px;
+}
+
+table td,th{
+    padding: 15px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+.awards {
+    padding-left: 30px;
+    margin-top: 40px;
+}
+.awards ul{
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+}
+
+.awards h1{
+    margin-bottom: 10px;
+}
+.education h1{
+    margin-bottom: 10px;
+}
+.awards h1{
+    margin-bottom: 10px;
+}
+
+.awards ul li{
+  list-style-type: none;
+  font-weight: 500px;
+  font-size: 17px;
+  padding: 15px;
+
+  background-color: lightgray;
+  border-left: 10px solid black;
+}
+
+hr{
+    margin-bottom: 10px;
+}
+
+
+input{
+    width: 100%;
+    padding: 10px 0px;
+    border-radius: 10px;
+}
+
+textarea{
+    width: 100%;
+    border-radius: 10px;
+}
+
+form{
+    width: 80%;
+    margin:30px auto;
+}
+
+button{
+    width: 100%;
+    padding: 10px 0px;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(147, 171, 147);
+    border-radius: 10px;
+}
+
+
+footer{
+    text-align: center;
+    background-color: rgb(45, 85, 125);
+    padding: 50px 0px;
+}
